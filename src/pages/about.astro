@@ -1,0 +1,43 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Mehdi from '@src/assets/img/mehdi.jpg';
+import Prose from '../components/Prose.astro';
+
+---
+
+<BaseLayout
+	title="About Me"
+	description="Lorem ipsum dolor sit amet"
+>
+  <div class='container'>
+		<main class='prose text-lg dark:prose-invert'>
+      <article>
+        <div class='w-full md:flex md:items-center gap-16 mb-10'>
+          <div class="text-pretty leading-9">
+            <h1 class="text-4xl font-bold mb-4">Hi There 👋, Im Khalil Saadate! </h1>
+            <Prose>
+              <div class="text-lg">
+                <p>As a web developer currently in my third year of Computer Science at the University of Le Havre Normandy, I have a strong interest in project management and enjoy building insightful dashboards. My technical skill set spans programming languages like PHP, Java, and C, as well as database systems such as MySQL, PostgreSQL, and Oracle. I also work with web development frameworks including and Symfony.</p>
+                <p>Passionate about sharing what I learn, I regularly post my work on <a href="#" target="_blank">my GitHub</a>. Feel free to explore my latest projects and articles below!</p>                
+              </div>
+            </Prose>
+          </div>
+          <Image src={Mehdi} alt="Mehdi Lazaar" width={300}  class="rounded-3xl rotate-3 mx-4 md:mx-0"/>
+        </div>     
+        <div>
+          <p>
+            With a strong passion for web development and a constant drive to learn, I'm a committed developer in my third year of a Computer Science degree. I’ve built a solid foundation in programming, project management, and database design, and my technical skills range from Power BI and macro scripting to full-stack development using PHP, Laravel, and MySQL. I’m always eager to expand my expertise and stay up to date with emerging technologies.
+        </p>
+        <p>
+            During my recent internship, I developed a web application to manage tutor-student interactions using FileMaker Pro. I was responsible for the entire development cycle—conducting needs analysis, configuring the database, designing the interface, and scripting functionality. The project sharpened my problem-solving abilities and allowed me to enhance the user experience with a clean and intuitive interface. It also strengthened my adaptability and collaboration skills, as I supported fellow interns and navigated new tools.
+        </p>
+        <p>
+            Motivated, proactive, and focused on continuous growth, I’m ready to contribute my skills to impactful projects. I'm excited by challenges that push me to evolve, explore innovative practices, and grow as part of a dynamic team.
+        </p>        
+        </div>
+        </article>
+      </article>
+    </main>
+  </div>
+</BaseLayout>
