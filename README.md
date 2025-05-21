@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio
 ![OscarHernandez-portfolio](https://github.com/user-attachments/assets/e284a42b-15c5-495c-99c7-ad5c1eb3bbe7)
 ![Deploy Status](https://img.shields.io/badge/Deploy-Vercel-black?style=flat&logo=vercel)
@@ -74,3 +75,6 @@ npm run dev
 > This project is licensed under the [MIT License](https://opensource.org/licenses/mit).  
 > According to the license terms, any redistribution (including compiled or modified versions), you **must** retain the original copyright 
 > notice and the full license text. Copyright © 2025 Oscar Hernandez. All rights reserved.
+=======
+# PortfolioKhalil
+>>>>>>> 9e2348729a311543c45ff0926b45bf347cea6833
