@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import tron from "../../public/tron.png";
+import SqGame from "../../public/SquadroGame.webp";
+import symfony from "../../public/Symfony.png";
+import quantikGame from "../../public/QuantikGame.png";
+import c from "../../public/C.png";
 
 interface Project {
   title: string;
@@ -15,32 +15,46 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
+    title: "Quantik game",
+    image: quantikGame as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/QUANTIKgame",
+    preview: "https://github.com/KHALIL-SAA/QUANTIKgame",
     status: "On Development",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
+    title: "Blog Symfony",
+    image: symfony as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/BlogSymfony",
+    preview: "https://github.com/KHALIL-SAA/BlogSymfony",
     status: "On Development",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
+    title: "Sqaudro Game",
+    image: SqGame as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/SQUADRO-game",
+    preview: "https://github.com/KHALIL-SAA/SQUADRO-game",
+    status: "On Development",
   },
   {
-    title: "Tron Legacy Web",
-    image: tron as ImageMetadata,
-    link: "https://github.com/Gothsec/Tron-Legacy-web",
-    preview: "https://tron-legacy-web.vercel.app/",
-    status: "Template (not official)",
+    title: "Random-and-Pseudo-Random",
+    image: c as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/Random-and-Pseudo-Random",
+    preview: "https://github.com/KHALIL-SAA/Random-and-Pseudo-Random",
+    status: "On Development",
+  },
+  {
+    title: "Symfony : Schools Management",
+    image: symfony as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/projetSymfony",
+    preview: "https://github.com/KHALIL-SAA/projetSymfony",
+    status: "On Development",
+  },
+  {
+    title: "Rugby Database",
+    image: symfony as ImageMetadata,
+    link: "https://github.com/KHALIL-SAA/Rugby-Championship",
+    preview: "https://github.com/KHALIL-SAA/Rugby-Championship",
+    status: "On Development",
   },
 ];
 ---
@@ -117,7 +131,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/KHALIL-SAA?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >
